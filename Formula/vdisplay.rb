@@ -6,9 +6,9 @@ class Vdisplay < Formula
   license "MIT"
   head "https://github.com/pacifistazero/vdisplay.git", branch: "main"
 
-  depends_on :macos
   # displayplacer powers the monitor-layout save/restore feature.
   depends_on "displayplacer"
+  depends_on :macos
 
   def install
     system "swift", "build", "--configuration", "release", "--disable-sandbox"
