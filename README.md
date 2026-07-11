@@ -6,6 +6,7 @@ Homebrew formulae by [pacifistazero](https://github.com/pacifistazero).
 
 ```sh
 brew tap pacifistazero/tap
+brew trust pacifistazero/tap   # recent Homebrew requires trusting third-party taps
 brew install vdisplay
 ```
 
