@@ -2,7 +2,7 @@ class Vdisplay < Formula
   desc "Virtual displays and monitor-layout management for macOS"
   homepage "https://github.com/pacifistazero/vdisplay"
   url "https://github.com/pacifistazero/vdisplay/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "adc2c2609ca3908d759509040ad4a604a7d3cfd4a91d71e1bbbc5a0dd72c9217"
+  sha256 "6e666f2c496831bda0948c7c6c304fc16c195e06e0673eeb810d9d496abeb98e"
   license "MIT"
   head "https://github.com/pacifistazero/vdisplay.git", branch: "main"
 
