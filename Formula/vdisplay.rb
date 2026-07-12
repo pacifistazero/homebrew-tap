@@ -8,6 +8,8 @@ class Vdisplay < Formula
 
   # displayplacer powers the monitor-layout save/restore feature.
   depends_on "displayplacer"
+  # m1ddc powers physical-monitor brightness control over DDC.
+  depends_on "m1ddc"
   depends_on :macos
 
   def install
